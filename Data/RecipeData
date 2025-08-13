@@ -1,0 +1,1307 @@
+[
+  {
+    "dish_name": "Vegetable Pad Thai",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["quick", "noodles", "stir-fry"],
+    "main_ingredients": ["rice noodles", "tofu", "carrot", "bean sprouts", "spring onions", "peanuts", "soy sauce", "lime", "garlic"],
+    "cooking_time_minutes": 25,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "rice noodles", "quantity": "200g"},
+      {"item": "tofu", "quantity": "150g"},
+      {"item": "carrot", "quantity": "1 medium"},
+      {"item": "bean sprouts", "quantity": "1 cup"},
+      {"item": "spring onions", "quantity": "2"},
+      {"item": "peanuts", "quantity": "2 tbsp, crushed"},
+      {"item": "soy sauce", "quantity": "3 tbsp"},
+      {"item": "lime", "quantity": "1"},
+      {"item": "garlic", "quantity": "2 cloves"}
+    ],
+    "instructions": [
+      "Soak rice noodles in warm water for 20 minutes.",
+      "Stir-fry garlic and tofu until golden.",
+      "Add vegetables and stir-fry for 2-3 minutes.",
+      "Add noodles and sauce, toss until combined.",
+      "Garnish with peanuts and lime."
+    ],
+    "substitutions": {
+      "tofu": ["tempeh", "chickpeas"],
+      "soy sauce": ["tamari", "coconut aminos"]
+    },
+    "flavor_notes": "Savory-sweet with tangy lime, mild chili heat."
+  },
+  {
+    "dish_name": "Chana Masala",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["spicy", "curry", "protein-rich"],
+    "main_ingredients": ["chickpeas", "onion", "tomato", "garlic", "ginger", "garam masala", "cumin", "coriander"],
+    "cooking_time_minutes": 35,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "chickpeas", "quantity": "2 cups, cooked"},
+      {"item": "onion", "quantity": "1 large"},
+      {"item": "tomato", "quantity": "2 medium"},
+      {"item": "garlic", "quantity": "3 cloves"},
+      {"item": "ginger", "quantity": "1 inch"},
+      {"item": "garam masala", "quantity": "1 tsp"},
+      {"item": "cumin powder", "quantity": "1 tsp"},
+      {"item": "coriander powder", "quantity": "1 tsp"},
+      {"item": "salt", "quantity": "to taste"}
+    ],
+    "instructions": [
+      "Sauté onions, garlic, and ginger until golden.",
+      "Add tomatoes and spices, cook until soft.",
+      "Add chickpeas and simmer for 15 minutes.",
+      "Serve hot with rice or roti."
+    ],
+    "substitutions": {
+      "chickpeas": ["black beans"],
+      "garam masala": ["curry powder"]
+    },
+    "flavor_notes": "Rich, warm spices with tangy tomato base."
+  },
+  {
+    "dish_name": "Stir-Fried Broccoli with Garlic Sauce",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["quick", "stir-fry", "gluten-free"],
+    "main_ingredients": ["broccoli", "garlic", "soy sauce", "sesame oil", "cornstarch"],
+    "cooking_time_minutes": 15,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "broccoli", "quantity": "2 cups florets"},
+      {"item": "garlic", "quantity": "4 cloves"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "sesame oil", "quantity": "1 tsp"},
+      {"item": "cornstarch", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Blanch broccoli for 2 minutes.",
+      "Stir-fry garlic until fragrant.",
+      "Add broccoli, soy sauce, and sesame oil.",
+      "Thicken with cornstarch slurry."
+    ],
+    "substitutions": {
+      "soy sauce": ["tamari"],
+      "sesame oil": ["peanut oil"]
+    },
+    "flavor_notes": "Garlicky, savory, with a nutty finish."
+  },
+  {
+    "dish_name": "Margherita Pizza",
+    "cuisine": "Italian",
+    "diet": "Vegetarian",
+    "tags": ["baked", "cheesy", "comfort food"],
+    "main_ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "pizza dough", "quantity": "1 base"},
+      {"item": "tomato sauce", "quantity": "1/2 cup"},
+      {"item": "mozzarella", "quantity": "150g"},
+      {"item": "basil leaves", "quantity": "8-10"}
+    ],
+    "instructions": [
+      "Preheat oven to 220°C.",
+      "Spread sauce on dough, add mozzarella and basil.",
+      "Bake for 10-12 minutes until cheese melts."
+    ],
+    "substitutions": {
+      "mozzarella": ["vegan cheese"]
+    },
+    "flavor_notes": "Fresh basil aroma with mild creamy cheese."
+  },
+  {
+    "dish_name": "Basil Fried Rice",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["rice dish", "herby", "quick"],
+    "main_ingredients": ["rice", "Thai basil", "soy sauce", "chili", "garlic", "bell pepper"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "cooked rice", "quantity": "2 cups"},
+      {"item": "Thai basil", "quantity": "1 cup"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "red chili", "quantity": "1"},
+      {"item": "garlic", "quantity": "3 cloves"},
+      {"item": "bell pepper", "quantity": "1 medium"}
+    ],
+    "instructions": [
+      "Stir-fry garlic and chili.",
+      "Add bell pepper and cook briefly.",
+      "Add rice, soy sauce, and basil. Stir-fry until fragrant."
+    ],
+    "substitutions": {
+      "Thai basil": ["sweet basil"],
+      "soy sauce": ["tamari"]
+    },
+    "flavor_notes": "Spicy, aromatic, and slightly sweet."
+  },
+  {
+    "dish_name": "Paneer Butter Masala",
+    "cuisine": "Indian",
+    "diet": "Vegetarian",
+    "tags": ["creamy", "mild", "curry"],
+    "main_ingredients": ["paneer", "tomato", "onion", "butter", "cream", "garam masala"],
+    "cooking_time_minutes": 40,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "paneer", "quantity": "200g"},
+      {"item": "tomato", "quantity": "3"},
+      {"item": "onion", "quantity": "1 large"},
+      {"item": "butter", "quantity": "2 tbsp"},
+      {"item": "cream", "quantity": "1/4 cup"},
+      {"item": "garam masala", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Cook onion and tomato until soft.",
+      "Blend into smooth gravy.",
+      "Add butter, cream, garam masala, and paneer. Simmer for 5 minutes."
+    ],
+    "substitutions": {
+      "paneer": ["tofu"],
+      "cream": ["cashew cream"]
+    },
+    "flavor_notes": "Rich, buttery, mildly spiced."
+  },
+  {
+    "dish_name": "Pasta Primavera",
+    "cuisine": "Italian",
+    "diet": "Vegetarian",
+    "tags": ["fresh", "spring vegetables", "pasta"],
+    "main_ingredients": ["pasta", "zucchini", "bell pepper", "carrot", "parmesan"],
+    "cooking_time_minutes": 25,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "pasta", "quantity": "200g"},
+      {"item": "zucchini", "quantity": "1"},
+      {"item": "bell pepper", "quantity": "1"},
+      {"item": "carrot", "quantity": "1"},
+      {"item": "parmesan", "quantity": "1/4 cup"}
+    ],
+    "instructions": [
+      "Boil pasta until al dente.",
+      "Sauté vegetables until tender.",
+      "Toss pasta with vegetables and parmesan."
+    ],
+    "substitutions": {
+      "parmesan": ["nutritional yeast"]
+    },
+    "flavor_notes": "Light, fresh, and slightly cheesy."
+  },
+  {
+    "dish_name": "Mapo Tofu (Vegan)",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["spicy", "silky tofu", "Sichuan"],
+    "main_ingredients": ["tofu", "Sichuan peppercorn", "chili bean paste", "garlic", "ginger", "spring onions"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "tofu", "quantity": "300g"},
+      {"item": "Sichuan peppercorn", "quantity": "1 tsp"},
+      {"item": "chili bean paste", "quantity": "2 tbsp"},
+      {"item": "garlic", "quantity": "2 cloves"},
+      {"item": "ginger", "quantity": "1 inch"},
+      {"item": "spring onions", "quantity": "2"}
+    ],
+    "instructions": [
+      "Toast peppercorns, then grind.",
+      "Stir-fry garlic, ginger, chili bean paste.",
+      "Add tofu and simmer with seasonings.",
+      "Garnish with spring onions."
+    ],
+    "substitutions": {
+      "chili bean paste": ["gochujang + soy sauce"]
+    },
+    "flavor_notes": "Spicy, numbing, and umami-rich."
+  },
+  {
+    "dish_name": "Thai Green Curry with Vegetables",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["curry", "aromatic", "coconut-based"],
+    "main_ingredients": ["green curry paste", "coconut milk", "zucchini", "bell pepper", "bamboo shoots", "basil"],
+    "cooking_time_minutes": 35,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "green curry paste", "quantity": "2 tbsp"},
+      {"item": "coconut milk", "quantity": "400ml"},
+      {"item": "zucchini", "quantity": "1"},
+      {"item": "bell pepper", "quantity": "1"},
+      {"item": "bamboo shoots", "quantity": "1/2 cup"},
+      {"item": "basil leaves", "quantity": "1/2 cup"}
+    ],
+    "instructions": [
+      "Heat curry paste, add coconut milk.",
+      "Add vegetables, simmer until tender.",
+      "Stir in basil before serving."
+    ],
+    "substitutions": {
+      "basil": ["Thai basil", "mint"]
+    },
+    "flavor_notes": "Creamy coconut base with herbal aroma."
+  },
+  {
+    "dish_name": "Aloo Gobi",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["dry curry", "spiced vegetables", "gluten-free"],
+    "main_ingredients": ["potato", "cauliflower", "turmeric", "ginger", "cumin"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "potato", "quantity": "2 medium"},
+      {"item": "cauliflower", "quantity": "2 cups florets"},
+      {"item": "turmeric", "quantity": "1/2 tsp"},
+      {"item": "ginger", "quantity": "1 inch"},
+      {"item": "cumin seeds", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Sauté cumin seeds and ginger.",
+      "Add potatoes, cauliflower, turmeric, and salt.",
+      "Cook covered until tender."
+    ],
+    "substitutions": {
+      "potato": ["sweet potato"]
+    },
+    "flavor_notes": "Earthy, spiced, and comforting."
+  },
+ {
+    "dish_name": "Minestrone Soup",
+    "cuisine": "Italian",
+    "diet": "Vegan",
+    "tags": ["soup", "hearty", "vegetable-rich"],
+    "main_ingredients": ["carrot", "celery", "zucchini", "beans", "pasta", "tomato"],
+    "cooking_time_minutes": 40,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "carrot", "quantity": "2"},
+      {"item": "celery", "quantity": "2 stalks"},
+      {"item": "zucchini", "quantity": "1"},
+      {"item": "cannellini beans", "quantity": "1 cup cooked"},
+      {"item": "small pasta", "quantity": "1/2 cup"},
+      {"item": "tomato", "quantity": "2"},
+      {"item": "vegetable broth", "quantity": "4 cups"}
+    ],
+    "instructions": [
+      "Sauté carrot and celery for 5 minutes.",
+      "Add zucchini, tomato, beans, and broth.",
+      "Simmer for 20 minutes.",
+      "Add pasta and cook until tender."
+    ],
+    "substitutions": {
+      "cannellini beans": ["kidney beans"],
+      "pasta": ["rice noodles"]
+    },
+    "flavor_notes": "Comforting, savory with a light herbal aroma."
+  },
+  {
+    "dish_name": "Kung Pao Cauliflower",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["spicy", "stir-fry", "sweet-sour"],
+    "main_ingredients": ["cauliflower", "peanuts", "soy sauce", "chili paste", "garlic", "ginger"],
+    "cooking_time_minutes": 25,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "cauliflower florets", "quantity": "3 cups"},
+      {"item": "peanuts", "quantity": "1/4 cup"},
+      {"item": "soy sauce", "quantity": "3 tbsp"},
+      {"item": "chili paste", "quantity": "1 tbsp"},
+      {"item": "garlic", "quantity": "3 cloves"},
+      {"item": "ginger", "quantity": "1 inch"}
+    ],
+    "instructions": [
+      "Stir-fry garlic and ginger until fragrant.",
+      "Add cauliflower and cook until slightly tender.",
+      "Add sauce and peanuts, stir-fry for 3-4 minutes."
+    ],
+    "substitutions": {
+      "peanuts": ["cashews"],
+      "chili paste": ["sriracha"]
+    },
+    "flavor_notes": "Spicy, tangy, with nutty crunch."
+  },
+  {
+    "dish_name": "Vegetable Biryani",
+    "cuisine": "Indian",
+    "diet": "Vegetarian",
+    "tags": ["spiced rice", "one-pot", "festive"],
+    "main_ingredients": ["basmati rice", "carrot", "peas", "potato", "onion", "biryani masala"],
+    "cooking_time_minutes": 50,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "basmati rice", "quantity": "2 cups"},
+      {"item": "carrot", "quantity": "1"},
+      {"item": "peas", "quantity": "1/2 cup"},
+      {"item": "potato", "quantity": "1"},
+      {"item": "onion", "quantity": "1 large"},
+      {"item": "biryani masala", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Fry onions until golden.",
+      "Add vegetables and biryani masala.",
+      "Layer par-cooked rice over vegetables.",
+      "Steam on low heat for 15 minutes."
+    ],
+    "substitutions": {
+      "biryani masala": ["garam masala + saffron"]
+    },
+    "flavor_notes": "Fragrant, spiced, with layered flavors."
+  },
+  {
+    "dish_name": "Zucchini Noodles with Pesto",
+    "cuisine": "Italian",
+    "diet": "Vegan",
+    "tags": ["low-carb", "fresh", "herby"],
+    "main_ingredients": ["zucchini", "basil", "pine nuts", "garlic", "olive oil"],
+    "cooking_time_minutes": 15,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "zucchini", "quantity": "2"},
+      {"item": "basil leaves", "quantity": "1 cup"},
+      {"item": "pine nuts", "quantity": "1/4 cup"},
+      {"item": "garlic", "quantity": "2 cloves"},
+      {"item": "olive oil", "quantity": "3 tbsp"}
+    ],
+    "instructions": [
+      "Spiralize zucchini into noodles.",
+      "Blend basil, pine nuts, garlic, olive oil into pesto.",
+      "Toss noodles with pesto."
+    ],
+    "substitutions": {
+      "pine nuts": ["walnuts", "cashews"]
+    },
+    "flavor_notes": "Fresh, nutty, and aromatic."
+  },
+  {
+    "dish_name": "Sweet and Sour Tofu",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["sweet", "tangy", "quick"],
+    "main_ingredients": ["tofu", "bell pepper", "pineapple", "soy sauce", "vinegar"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "tofu", "quantity": "200g"},
+      {"item": "bell pepper", "quantity": "1"},
+      {"item": "pineapple chunks", "quantity": "1/2 cup"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "rice vinegar", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Pan-fry tofu until golden.",
+      "Add bell pepper and pineapple, stir-fry briefly.",
+      "Add sauce and toss until coated."
+    ],
+    "substitutions": {
+      "pineapple": ["mango"],
+      "rice vinegar": ["apple cider vinegar"]
+    },
+    "flavor_notes": "Sweet-tart with savory undertones."
+  },
+  {
+    "dish_name": "Rajma Masala",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["protein-rich", "curry", "comfort food"],
+    "main_ingredients": ["kidney beans", "onion", "tomato", "ginger", "garam masala"],
+    "cooking_time_minutes": 45,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "kidney beans", "quantity": "2 cups cooked"},
+      {"item": "onion", "quantity": "1 large"},
+      {"item": "tomato", "quantity": "2"},
+      {"item": "ginger", "quantity": "1 inch"},
+      {"item": "garam masala", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Sauté onion and ginger until golden.",
+      "Add tomato and spices, cook until soft.",
+      "Add kidney beans, simmer for 20 minutes."
+    ],
+    "substitutions": {
+      "kidney beans": ["black beans"]
+    },
+    "flavor_notes": "Rich, spiced, and hearty."
+  },
+  {
+    "dish_name": "Bruschetta",
+    "cuisine": "Italian",
+    "diet": "Vegan",
+    "tags": ["appetizer", "fresh", "quick"],
+    "main_ingredients": ["bread", "tomato", "basil", "garlic", "olive oil"],
+    "cooking_time_minutes": 10,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "baguette slices", "quantity": "8"},
+      {"item": "tomato", "quantity": "2"},
+      {"item": "basil leaves", "quantity": "1/4 cup"},
+      {"item": "garlic", "quantity": "1 clove"},
+      {"item": "olive oil", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Toast bread slices.",
+      "Top with diced tomato, basil, garlic, and olive oil."
+    ],
+    "substitutions": {
+      "baguette": ["gluten-free bread"]
+    },
+    "flavor_notes": "Fresh, herby, and slightly tangy."
+  },
+  {
+    "dish_name": "Chinese Cabbage Stir-Fry",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["quick", "garlicky", "side dish"],
+    "main_ingredients": ["Chinese cabbage", "garlic", "soy sauce", "sesame oil"],
+    "cooking_time_minutes": 12,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "Chinese cabbage", "quantity": "3 cups"},
+      {"item": "garlic", "quantity": "3 cloves"},
+      {"item": "soy sauce", "quantity": "1 tbsp"},
+      {"item": "sesame oil", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Stir-fry garlic until fragrant.",
+      "Add cabbage and soy sauce, cook 3-4 minutes.",
+      "Finish with sesame oil."
+    ],
+    "substitutions": {
+      "soy sauce": ["tamari"]
+    },
+    "flavor_notes": "Savory with mild sweetness from cabbage."
+  },
+  {
+    "dish_name": "Spinach and Ricotta Cannelloni",
+    "cuisine": "Italian",
+    "diet": "Vegetarian",
+    "tags": ["baked", "cheesy", "comfort food"],
+    "main_ingredients": ["cannelloni pasta", "spinach", "ricotta", "tomato sauce"],
+    "cooking_time_minutes": 50,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "cannelloni pasta", "quantity": "12 tubes"},
+      {"item": "spinach", "quantity": "2 cups"},
+      {"item": "ricotta", "quantity": "1 cup"},
+      {"item": "tomato sauce", "quantity": "2 cups"}
+    ],
+    "instructions": [
+      "Mix spinach and ricotta.",
+      "Stuff cannelloni with mixture.",
+      "Place in baking dish, cover with tomato sauce.",
+      "Bake for 30 minutes at 180°C."
+    ],
+    "substitutions": {
+      "ricotta": ["tofu ricotta"]
+    },
+    "flavor_notes": "Creamy with tangy tomato balance."
+  },
+  {
+    "dish_name": "Thai Mango Sticky Rice",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["dessert", "sweet", "tropical"],
+    "main_ingredients": ["glutinous rice", "coconut milk", "mango", "sugar"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "glutinous rice", "quantity": "1 cup"},
+      {"item": "coconut milk", "quantity": "1 cup"},
+      {"item": "mango", "quantity": "1 large"},
+      {"item": "sugar", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Cook glutinous rice until tender.",
+      "Heat coconut milk with sugar until dissolved.",
+      "Pour over rice and top with mango slices."
+    ],
+    "substitutions": {
+      "mango": ["pineapple"]
+    },
+    "flavor_notes": "Sweet, creamy, with tropical fruit aroma."
+  },
+  {
+    "dish_name": "Vegetable Spring Rolls",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["appetizer", "crispy", "party snack"],
+    "main_ingredients": ["spring roll wrappers", "cabbage", "carrot", "bean sprouts", "soy sauce"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "spring roll wrappers", "quantity": "12"},
+      {"item": "cabbage", "quantity": "2 cups shredded"},
+      {"item": "carrot", "quantity": "1 cup julienned"},
+      {"item": "bean sprouts", "quantity": "1 cup"},
+      {"item": "soy sauce", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Stir-fry vegetables with soy sauce for 2-3 minutes.",
+      "Cool mixture and wrap in spring roll wrappers.",
+      "Deep fry until golden."
+    ],
+    "substitutions": {
+      "soy sauce": ["tamari"]
+    },
+    "flavor_notes": "Crispy outside with savory, fresh vegetable filling."
+  },
+  {
+    "dish_name": "Masoor Dal",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["lentil curry", "protein-rich", "gluten-free"],
+    "main_ingredients": ["red lentils", "onion", "tomato", "turmeric", "cumin"],
+    "cooking_time_minutes": 25,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "red lentils", "quantity": "1 cup"},
+      {"item": "onion", "quantity": "1"},
+      {"item": "tomato", "quantity": "1"},
+      {"item": "turmeric", "quantity": "1/2 tsp"},
+      {"item": "cumin seeds", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Cook lentils with turmeric until soft.",
+      "Tempering: sauté cumin and onion, add tomato, cook until soft.",
+      "Mix tempering into lentils and simmer briefly."
+    ],
+    "substitutions": {
+      "red lentils": ["yellow lentils"]
+    },
+    "flavor_notes": "Mild, earthy, and comforting."
+  },
+  {
+    "dish_name": "Thai Pineapple Fried Rice",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["rice dish", "tropical", "savory-sweet"],
+    "main_ingredients": ["rice", "pineapple", "bell pepper", "soy sauce", "cashews"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "cooked rice", "quantity": "2 cups"},
+      {"item": "pineapple chunks", "quantity": "1 cup"},
+      {"item": "bell pepper", "quantity": "1"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "cashews", "quantity": "1/4 cup"}
+    ],
+    "instructions": [
+      "Stir-fry bell pepper and pineapple.",
+      "Add rice, soy sauce, and cashews. Toss well."
+    ],
+    "substitutions": {
+      "pineapple": ["mango"],
+      "cashews": ["peanuts"]
+    },
+    "flavor_notes": "Sweet pineapple with savory soy and nutty crunch."
+  },
+  {
+    "dish_name": "Palak Paneer",
+    "cuisine": "Indian",
+    "diet": "Vegetarian",
+    "tags": ["spinach curry", "creamy", "iron-rich"],
+    "main_ingredients": ["spinach", "paneer", "onion", "garlic", "garam masala"],
+    "cooking_time_minutes": 35,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "spinach", "quantity": "4 cups"},
+      {"item": "paneer", "quantity": "200g"},
+      {"item": "onion", "quantity": "1"},
+      {"item": "garlic", "quantity": "3 cloves"},
+      {"item": "garam masala", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Blanch spinach and blend into puree.",
+      "Cook onion, garlic, and spices.",
+      "Add spinach puree and paneer, simmer for 5 minutes."
+    ],
+    "substitutions": {
+      "paneer": ["tofu"],
+      "cream": ["cashew cream"]
+    },
+    "flavor_notes": "Mildly spiced with fresh spinach flavor."
+  },
+  {
+    "dish_name": "Caprese Salad",
+    "cuisine": "Italian",
+    "diet": "Vegetarian",
+    "tags": ["fresh", "salad", "quick"],
+    "main_ingredients": ["tomato", "mozzarella", "basil", "olive oil"],
+    "cooking_time_minutes": 5,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "tomato", "quantity": "2 large"},
+      {"item": "mozzarella", "quantity": "150g"},
+      {"item": "basil leaves", "quantity": "1/4 cup"},
+      {"item": "olive oil", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Slice tomato and mozzarella.",
+      "Arrange with basil, drizzle olive oil."
+    ],
+    "substitutions": {
+      "mozzarella": ["vegan mozzarella"]
+    },
+    "flavor_notes": "Light, creamy, with aromatic basil."
+  },
+  {
+    "dish_name": "Chinese Eggplant with Garlic Sauce",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["savory", "umami", "stir-fry"],
+    "main_ingredients": ["eggplant", "garlic", "soy sauce", "ginger", "vinegar"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "eggplant", "quantity": "2"},
+      {"item": "garlic", "quantity": "3 cloves"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "ginger", "quantity": "1 inch"},
+      {"item": "rice vinegar", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Stir-fry garlic and ginger.",
+      "Add eggplant, soy sauce, and vinegar, cook until tender."
+    ],
+    "substitutions": {
+      "soy sauce": ["tamari"]
+    },
+    "flavor_notes": "Rich, savory with slight tang."
+  },
+  {
+    "dish_name": "Thai Papaya Salad (Som Tum)",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["salad", "fresh", "spicy"],
+    "main_ingredients": ["green papaya", "tomato", "lime", "peanuts", "chili"],
+    "cooking_time_minutes": 15,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "green papaya", "quantity": "2 cups shredded"},
+      {"item": "tomato", "quantity": "1"},
+      {"item": "lime", "quantity": "1"},
+      {"item": "peanuts", "quantity": "2 tbsp"},
+      {"item": "red chili", "quantity": "1"}
+    ],
+    "instructions": [
+      "Pound chili and peanuts in mortar.",
+      "Add papaya, tomato, lime juice, toss well."
+    ],
+    "substitutions": {
+      "green papaya": ["cucumber"]
+    },
+    "flavor_notes": "Crisp, tangy, with chili heat."
+  },
+  {
+    "dish_name": "Vegetable Manchurian",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["Indo-Chinese", "spicy", "fried"],
+    "main_ingredients": ["cabbage", "carrot", "spring onions", "soy sauce", "cornflour"],
+    "cooking_time_minutes": 40,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "cabbage", "quantity": "1 cup shredded"},
+      {"item": "carrot", "quantity": "1 cup grated"},
+      {"item": "spring onions", "quantity": "1/2 cup chopped"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "cornflour", "quantity": "3 tbsp"}
+    ],
+    "instructions": [
+      "Mix vegetables, flour, and seasonings, shape into balls.",
+      "Fry until golden.",
+      "Simmer in soy sauce-based gravy."
+    ],
+    "substitutions": {
+      "soy sauce": ["tamari"]
+    },
+    "flavor_notes": "Spicy, tangy, with a crunchy-soft texture."
+  },
+  {
+    "dish_name": "Ratatouille",
+    "cuisine": "Italian",
+    "diet": "Vegan",
+    "tags": ["stewed vegetables", "Mediterranean", "healthy"],
+    "main_ingredients": ["zucchini", "eggplant", "tomato", "bell pepper", "garlic"],
+    "cooking_time_minutes": 45,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "zucchini", "quantity": "2"},
+      {"item": "eggplant", "quantity": "1"},
+      {"item": "tomato", "quantity": "3"},
+      {"item": "bell pepper", "quantity": "1"},
+      {"item": "garlic", "quantity": "3 cloves"}
+    ],
+    "instructions": [
+      "Sauté vegetables separately.",
+      "Combine and simmer until tender."
+    ],
+    "substitutions": {
+      "eggplant": ["mushrooms"]
+    },
+    "flavor_notes": "Savory, herby, with natural sweetness from vegetables."
+  },
+  {
+    "dish_name": "Aloo Tikki",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["snack", "street food", "crispy"],
+    "main_ingredients": ["potato", "green chili", "coriander leaves", "bread crumbs"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "potato", "quantity": "3 medium"},
+      {"item": "green chili", "quantity": "1"},
+      {"item": "coriander leaves", "quantity": "2 tbsp"},
+      {"item": "bread crumbs", "quantity": "1/4 cup"}
+    ],
+    "instructions": [
+      "Mash boiled potatoes, mix with spices and bread crumbs.",
+      "Shape into patties and shallow fry until golden."
+    ],
+    "substitutions": {
+      "bread crumbs": ["crushed cornflakes"]
+    },
+    "flavor_notes": "Crispy outside, soft and mildly spiced inside."
+  },
+
+  {
+    "dish_name": "Kung Pao Tofu",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["spicy", "stir-fry"],
+    "main_ingredients": ["tofu", "bell peppers", "peanuts", "soy sauce", "chili paste"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "tofu", "quantity": "200g"},
+      {"item": "bell peppers", "quantity": "1 cup, diced"},
+      {"item": "peanuts", "quantity": "1/4 cup"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "chili paste", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Stir-fry tofu until golden.",
+      "Add vegetables, peanuts, and sauce.",
+      "Cook until heated through."
+    ],
+    "substitutions": {
+      "tofu": ["tempeh"]
+    },
+    "flavor_notes": "Bold, spicy, and nutty."
+  },
+  {
+    "dish_name": "Vegetable Lo Mein",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["noodles", "quick"],
+    "main_ingredients": ["noodles", "bok choy", "carrots", "soy sauce", "sesame oil"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "noodles", "quantity": "200g"},
+      {"item": "bok choy", "quantity": "1 cup"},
+      {"item": "carrots", "quantity": "1/2 cup"},
+      {"item": "soy sauce", "quantity": "3 tbsp"},
+      {"item": "sesame oil", "quantity": "1 tbsp"}
+    ],
+    "instructions": [
+      "Boil noodles, set aside.",
+      "Stir-fry vegetables, add noodles and sauce."
+    ],
+    "substitutions": {
+      "bok choy": ["spinach"]
+    },
+    "flavor_notes": "Savory with toasted sesame aroma."
+  },
+  {
+    "dish_name": "Chili Garlic Noodles",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["spicy", "quick", "stir-fry"],
+    "main_ingredients": ["noodles", "garlic", "chili flakes", "spring onions", "soy sauce"],
+    "cooking_time_minutes": 15,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "noodles", "quantity": "200g"},
+      {"item": "garlic", "quantity": "5 cloves"},
+      {"item": "chili flakes", "quantity": "1 tsp"},
+      {"item": "spring onions", "quantity": "3"},
+      {"item": "soy sauce", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Boil noodles and drain.",
+      "Fry garlic and chili flakes in oil.",
+      "Add noodles, soy sauce, and spring onions.",
+      "Toss well and serve."
+    ],
+    "substitutions": {
+      "soy sauce": ["tamari"],
+      "chili flakes": ["fresh red chilies"]
+    },
+    "flavor_notes": "Garlicky with a spicy kick."
+  },
+  {
+    "dish_name": "Basil Pesto Pasta",
+    "cuisine": "Italian",
+    "diet": "Vegan",
+    "tags": ["herby", "nutty", "pasta"],
+    "main_ingredients": ["spaghetti", "basil", "pine nuts", "garlic", "olive oil"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "spaghetti", "quantity": "200g"},
+      {"item": "basil", "quantity": "1 cup"},
+      {"item": "pine nuts", "quantity": "2 tbsp"},
+      {"item": "garlic", "quantity": "2 cloves"},
+      {"item": "olive oil", "quantity": "3 tbsp"}
+    ],
+    "instructions": [
+      "Blend basil, pine nuts, garlic, and olive oil into a paste.",
+      "Cook spaghetti and drain.",
+      "Mix pesto with pasta and serve."
+    ],
+    "substitutions": {
+      "pine nuts": ["walnuts", "cashews"],
+      "spaghetti": ["penne", "fettuccine"]
+    },
+    "flavor_notes": "Fresh, herby, and nutty."
+  },
+  {
+    "dish_name": "Tom Yum Vegetable Soup",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["sour", "spicy", "soup"],
+    "main_ingredients": ["lemongrass", "mushrooms", "lime juice", "galangal", "tofu"],
+    "cooking_time_minutes": 25,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "lemongrass", "quantity": "2 stalks"},
+      {"item": "mushrooms", "quantity": "1 cup"},
+      {"item": "lime juice", "quantity": "2 tbsp"},
+      {"item": "galangal", "quantity": "3 slices"},
+      {"item": "tofu", "quantity": "150g"}
+    ],
+    "instructions": [
+      "Boil lemongrass and galangal in water.",
+      "Add vegetables and tofu.",
+      "Season with lime juice and chili paste.",
+      "Simmer and serve hot."
+    ],
+    "substitutions": {
+      "galangal": ["ginger"],
+      "tofu": ["tempeh"]
+    },
+    "flavor_notes": "Tangy, spicy, and fragrant."
+  },
+  {
+    "dish_name": "Stuffed Capsicum with Rice",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["stuffed", "baked", "spiced"],
+    "main_ingredients": ["capsicum", "rice", "onions", "tomatoes", "garam masala"],
+    "cooking_time_minutes": 40,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "capsicum", "quantity": "4"},
+      {"item": "rice", "quantity": "1 cup"},
+      {"item": "onions", "quantity": "1 medium"},
+      {"item": "tomatoes", "quantity": "2 medium"},
+      {"item": "garam masala", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Cook rice with onions, tomatoes, and spices.",
+      "Stuff into hollowed capsicums.",
+      "Bake until capsicums are tender."
+    ],
+    "substitutions": {
+      "rice": ["quinoa"],
+      "garam masala": ["curry powder"]
+    },
+    "flavor_notes": "Smoky with a spiced rice filling."
+  },
+   {
+    "dish_name": "Vegetable Korma",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["creamy", "mild", "mixed vegetables"],
+    "main_ingredients": ["cauliflower", "carrots", "peas", "coconut milk", "cashews", "cumin"],
+    "cooking_time_minutes": 35,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "cauliflower", "quantity": "1 cup"},
+      {"item": "carrots", "quantity": "1 cup diced"},
+      {"item": "peas", "quantity": "1/2 cup"},
+      {"item": "coconut milk", "quantity": "1 cup"},
+      {"item": "cashews", "quantity": "10"},
+      {"item": "cumin", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Blend cashews with coconut milk to a smooth paste.",
+      "Sauté vegetables with cumin until tender.",
+      "Add coconut-cashew paste and simmer for 10 minutes."
+    ],
+    "substitutions": {
+      "cashews": ["almonds"],
+      "coconut milk": ["soy cream"]
+    },
+    "flavor_notes": "Rich, creamy, mildly spiced."
+  },
+  {
+    "dish_name": "Mushroom Stroganoff",
+    "cuisine": "Italian",
+    "diet": "Vegetarian",
+    "tags": ["creamy", "pasta", "mushroom"],
+    "main_ingredients": ["mushrooms", "onion", "garlic", "cream", "pasta"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "mushrooms", "quantity": "200g"},
+      {"item": "onion", "quantity": "1 medium"},
+      {"item": "garlic", "quantity": "2 cloves"},
+      {"item": "cream", "quantity": "1/2 cup"},
+      {"item": "pasta", "quantity": "200g"}
+    ],
+    "instructions": [
+      "Sauté onions and garlic, add mushrooms and cook until soft.",
+      "Add cream and simmer 5 minutes.",
+      "Toss with cooked pasta and serve."
+    ],
+    "substitutions": {
+      "cream": ["coconut cream", "cashew cream"]
+    },
+    "flavor_notes": "Earthy mushrooms in creamy sauce."
+  },
+  {
+    "dish_name": "Lentil and Spinach Soup",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["soup", "protein-rich", "healthy"],
+    "main_ingredients": ["red lentils", "spinach", "onion", "garlic", "turmeric"],
+    "cooking_time_minutes": 25,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "red lentils", "quantity": "1 cup"},
+      {"item": "spinach", "quantity": "2 cups chopped"},
+      {"item": "onion", "quantity": "1 medium"},
+      {"item": "garlic", "quantity": "2 cloves"},
+      {"item": "turmeric", "quantity": "1/2 tsp"}
+    ],
+    "instructions": [
+      "Cook lentils with turmeric until tender.",
+      "Sauté onions and garlic, add to lentils.",
+      "Add spinach and simmer 5 minutes."
+    ],
+    "substitutions": {
+      "spinach": ["kale", "collard greens"]
+    },
+    "flavor_notes": "Light, earthy, and nutritious."
+  },
+  {
+    "dish_name": "Zucchini Fritters",
+    "cuisine": "Italian",
+    "diet": "Vegan",
+    "tags": ["crispy", "snack", "quick"],
+    "main_ingredients": ["zucchini", "flour", "garlic", "olive oil"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "zucchini", "quantity": "2 medium"},
+      {"item": "flour", "quantity": "1/2 cup"},
+      {"item": "garlic", "quantity": "2 cloves"},
+      {"item": "olive oil", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Grate zucchini and mix with flour and garlic.",
+      "Form patties and fry in olive oil until golden."
+    ],
+    "substitutions": {
+      "flour": ["chickpea flour", "rice flour"]
+    },
+    "flavor_notes": "Crispy outside, soft inside, garlicky aroma."
+  },
+  {
+    "dish_name": "Sweet and Sour Tofu",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["stir-fry", "saucy", "crispy"],
+    "main_ingredients": ["tofu", "pineapple", "bell peppers", "vinegar", "soy sauce"],
+    "cooking_time_minutes": 25,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "tofu", "quantity": "200g"},
+      {"item": "pineapple", "quantity": "1 cup chunks"},
+      {"item": "bell peppers", "quantity": "1 cup diced"},
+      {"item": "vinegar", "quantity": "2 tbsp"},
+      {"item": "soy sauce", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Fry tofu until golden.",
+      "Add vegetables and pineapple, stir-fry.",
+      "Add soy sauce and vinegar, cook 3-5 minutes."
+    ],
+    "substitutions": {
+      "tofu": ["tempeh"]
+    },
+    "flavor_notes": "Sweet and tangy with a savory base."
+  },
+  {
+    "dish_name": "Thai Mango Salad",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["fresh", "spicy", "salad"],
+    "main_ingredients": ["green mango", "carrot", "lime juice", "peanuts", "chili"],
+    "cooking_time_minutes": 15,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "green mango", "quantity": "1 cup julienned"},
+      {"item": "carrot", "quantity": "1/2 cup julienned"},
+      {"item": "lime juice", "quantity": "2 tbsp"},
+      {"item": "peanuts", "quantity": "2 tbsp"},
+      {"item": "red chili", "quantity": "1"}
+    ],
+    "instructions": [
+      "Mix mango and carrot.",
+      "Add lime juice, crushed peanuts, and chili.",
+      "Toss and serve chilled."
+    ],
+    "substitutions": {
+      "green mango": ["green papaya"]
+    },
+    "flavor_notes": "Tangy, sweet, and slightly spicy."
+  },
+  {
+    "dish_name": "Chickpea Spinach Stew",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["protein-rich", "comfort food", "stew"],
+    "main_ingredients": ["chickpeas", "spinach", "tomatoes", "onion", "cumin"],
+    "cooking_time_minutes": 35,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "chickpeas", "quantity": "2 cups cooked"},
+      {"item": "spinach", "quantity": "2 cups chopped"},
+      {"item": "tomatoes", "quantity": "2 medium"},
+      {"item": "onion", "quantity": "1 medium"},
+      {"item": "cumin", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Sauté onions and cumin.",
+      "Add tomatoes and cook until soft.",
+      "Add chickpeas and spinach, simmer 10 minutes."
+    ],
+    "substitutions": {
+      "spinach": ["kale"]
+    },
+    "flavor_notes": "Hearty, earthy, mildly spiced."
+  },
+  {
+    "dish_name": "Eggplant Caponata",
+    "cuisine": "Italian",
+    "diet": "Vegan",
+    "tags": ["stewed vegetables", "Mediterranean", "savory-sweet"],
+    "main_ingredients": ["eggplant", "tomatoes", "capers", "olives", "onion"],
+    "cooking_time_minutes": 40,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "eggplant", "quantity": "2 cups diced"},
+      {"item": "tomatoes", "quantity": "2 cups diced"},
+      {"item": "capers", "quantity": "1 tbsp"},
+      {"item": "olives", "quantity": "1/4 cup chopped"},
+      {"item": "onion", "quantity": "1 medium"}
+    ],
+    "instructions": [
+      "Sauté onion and eggplant until soft.",
+      "Add tomatoes, capers, and olives, simmer 20 minutes."
+    ],
+    "substitutions": {
+      "eggplant": ["zucchini"]
+    },
+    "flavor_notes": "Savory, slightly tangy, with Mediterranean aroma."
+  },{
+    "dish_name": "Tofu and Broccoli Stir-Fry",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["quick", "protein-rich", "stir-fry"],
+    "main_ingredients": ["tofu", "broccoli", "garlic", "soy sauce", "ginger"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "tofu", "quantity": "200g"},
+      {"item": "broccoli", "quantity": "1 cup florets"},
+      {"item": "garlic", "quantity": "3 cloves"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "ginger", "quantity": "1 tsp grated"}
+    ],
+    "instructions": [
+      "Fry tofu until golden, set aside.",
+      "Stir-fry broccoli with garlic and ginger.",
+      "Add tofu back and soy sauce, toss well."
+    ],
+    "substitutions": {
+      "tofu": ["tempeh"],
+      "broccoli": ["bok choy"]
+    },
+    "flavor_notes": "Savory, slightly sweet, aromatic stir-fry."
+  },
+  {
+    "dish_name": "Pumpkin Curry",
+    "cuisine": "Indian",
+    "diet": "Vegan",
+    "tags": ["creamy", "spiced", "comfort food"],
+    "main_ingredients": ["pumpkin", "onions", "tomatoes", "coconut milk", "cumin seeds"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "pumpkin", "quantity": "2 cups cubed"},
+      {"item": "onions", "quantity": "1 medium"},
+      {"item": "tomatoes", "quantity": "2 medium"},
+      {"item": "coconut milk", "quantity": "1/2 cup"},
+      {"item": "cumin seeds", "quantity": "1 tsp"}
+    ],
+    "instructions": [
+      "Sauté onions and cumin seeds.",
+      "Add pumpkin and tomatoes, cook until tender.",
+      "Add coconut milk and simmer 5-10 minutes."
+    ],
+    "substitutions": {
+      "pumpkin": ["butternut squash"]
+    },
+    "flavor_notes": "Sweet and savory with mild spice."
+  },
+  {
+    "dish_name": "Pad Thai with Tofu",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["noodles", "stir-fry", "sweet-savory"],
+    "main_ingredients": ["rice noodles", "tofu", "bean sprouts", "peanuts", "lime"],
+    "cooking_time_minutes": 30,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "rice noodles", "quantity": "200g"},
+      {"item": "tofu", "quantity": "150g"},
+      {"item": "bean sprouts", "quantity": "1 cup"},
+      {"item": "peanuts", "quantity": "2 tbsp crushed"},
+      {"item": "lime", "quantity": "1"}
+    ],
+    "instructions": [
+      "Cook rice noodles according to package instructions.",
+      "Stir-fry tofu and add noodles.",
+      "Mix in bean sprouts, peanuts, and lime juice."
+    ],
+    "substitutions": {
+      "tofu": ["tempeh"],
+      "peanuts": ["cashews"]
+    },
+    "flavor_notes": "Sweet, tangy, nutty, with a fresh lime aroma."
+  },
+  {
+    "dish_name": "Butternut Squash Risotto",
+    "cuisine": "Italian",
+    "diet": "Vegetarian",
+    "tags": ["creamy", "comfort food", "rice"],
+    "main_ingredients": ["arborio rice", "butternut squash", "onion", "vegetable broth", "olive oil"],
+    "cooking_time_minutes": 40,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "arborio rice", "quantity": "1 cup"},
+      {"item": "butternut squash", "quantity": "1 cup diced"},
+      {"item": "onion", "quantity": "1 medium"},
+      {"item": "vegetable broth", "quantity": "3 cups"},
+      {"item": "olive oil", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Sauté onion in olive oil.",
+      "Add rice and toast for 2 minutes.",
+      "Gradually add broth, stirring, and fold in squash until cooked."
+    ],
+    "substitutions": {
+      "butternut squash": ["pumpkin", "sweet potato"]
+    },
+    "flavor_notes": "Creamy, rich, slightly sweet from squash."
+  },
+  {
+    "dish_name": "Thai Basil Tofu",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["stir-fry", "spicy", "quick"],
+    "main_ingredients": ["tofu", "basil leaves", "bell peppers", "garlic", "soy sauce"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "tofu", "quantity": "200g"},
+      {"item": "basil leaves", "quantity": "1 cup"},
+      {"item": "bell peppers", "quantity": "1 cup sliced"},
+      {"item": "garlic", "quantity": "2 cloves"},
+      {"item": "soy sauce", "quantity": "2 tbsp"}
+    ],
+    "instructions": [
+      "Fry tofu until golden.",
+      "Stir-fry vegetables with garlic.",
+      "Add tofu and basil, toss with soy sauce, and serve."
+    ],
+    "substitutions": {
+      "basil leaves": ["cilantro"],
+      "tofu": ["tempeh"]
+    },
+    "flavor_notes": "Fragrant, savory, mildly spicy."
+  },
+  {
+    "dish_name": "Cauliflower Fried Rice",
+    "cuisine": "Chinese",
+    "diet": "Vegan",
+    "tags": ["low-carb", "quick", "stir-fry"],
+    "main_ingredients": ["cauliflower", "carrots", "peas", "soy sauce", "green onions"],
+    "cooking_time_minutes": 20,
+    "difficulty": "Easy",
+    "ingredients_full": [
+      {"item": "cauliflower", "quantity": "2 cups grated"},
+      {"item": "carrots", "quantity": "1/2 cup diced"},
+      {"item": "peas", "quantity": "1/2 cup"},
+      {"item": "soy sauce", "quantity": "2 tbsp"},
+      {"item": "green onions", "quantity": "2"}
+    ],
+    "instructions": [
+      "Sauté vegetables until tender.",
+      "Add cauliflower and soy sauce, stir-fry 5 minutes.",
+      "Garnish with green onions."
+    ],
+    "substitutions": {
+      "cauliflower": ["broccoli rice"],
+      "soy sauce": ["tamari"]
+    },
+    "flavor_notes": "Savory, slightly nutty, and aromatic."
+  },
+  {
+    "dish_name": "Vegetable Pad See Ew",
+    "cuisine": "Thai",
+    "diet": "Vegan",
+    "tags": ["stir-fry", "noodles", "savory"],
+    "main_ingredients": ["flat rice noodles", "broccoli", "carrots", "soy sauce", "garlic"],
+    "cooking_time_minutes": 25,
+    "difficulty": "Medium",
+    "ingredients_full": [
+      {"item": "flat rice noodles", "quantity": "200g"},
+      {"item": "broccoli", "quantity": "1 cup florets"},
+      {"item": "carrots", "quantity": "1/2 cup sliced"},
+      {"item": "soy sauce", "quantity": "3 tbsp"},
+      {"item": "garlic", "quantity": "2 cloves"}
+    ],
+    "instructions": [
+      "Cook noodles according to package instructions.",
+      "Stir-fry vegetables with garlic.",
+      "Add noodles and soy sauce, toss until heated."
+    ],
+    "substitutions": {
+      "broccoli": ["bok choy"],
+      "soy sauce": ["tamari"]
+    },
+    "flavor_notes": "Savory, slightly sweet, tender-crisp vegetables."
+  }
+]
