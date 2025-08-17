@@ -43,3 +43,36 @@ Example record:
   "substitutions": ["Use almond butter instead of peanuts for nut allergies"],
   "flavor_notes": "Savory with a balance of sweet and tangy"
 }
+
+
+## Evaluation
+For the code for evaluating the system, you can check the [notebook/rag-test.ipynb](notebooks/rag-test.ipynb) notebook.
+
+### Retrieval
+The basic approach - using minsearch without using any boosting gives the following metrics:
+* hit_rate: 97% [0.9755102040816327], 
+* MRR: 83% [0.836089245221898]
+
+The improved version (with better boosting):
+* hit_rate: 97% [0.9755102040816327], 
+* MRR: 90% [0.9050413022351798]
+
+The best boosting parameters:
+```python
+boost = {
+    'dish_name': 2.49,
+    'cuisine': 2.16,
+    'diet': 2.745,
+    'tags': 0.23,
+    'main_ingredients': 1.631,
+    'cooking_time_minutes': 0.39,
+    'difficulty': 2.64,
+    'ingredients_full': 1.73
+} 
+```
+
+### RAG
+
+### Monitoring
+
+### Ingestion
