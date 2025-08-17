@@ -43,9 +43,9 @@ Example record:
   "substitutions": ["Use almond butter instead of peanuts for nut allergies"],
   "flavor_notes": "Savory with a balance of sweet and tangy"
 }
+```
 
-
-## Evaluation
+### Evaluation
 For the code for evaluating the system, you can check the [notebook/rag-test.ipynb](notebooks/rag-test.ipynb) notebook.
 
 ### Retrieval
