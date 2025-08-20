@@ -72,6 +72,18 @@ boost = {
 ```
 
 ### RAG
+We used the LLM-as-a-judge metric to evaluate the quality of our RAG flow
+For gpt-4o-mini out of the 490 records, we had:
+
+* 474 (96%) RELEVANT
+* 13 (2.5%) PARTLY_RELEVANT
+* 3 (1.5%) NON_RELEVANT
+
+For gpt-3.5-turbo out of the 490 records, we had:
+
+* 459 (93%) RELEVANT
+* 29 (6%) PARTLY_RELEVANT
+* 2 (1%) NON_RELEVANT
 
 ### Monitoring
 
