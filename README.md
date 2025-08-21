@@ -45,6 +45,59 @@ Example record:
 }
 ```
 
+### Installation
+🚀 Setup Instructions
+
+Follow these steps to run the **Fridge Chef RAG** project locally.
+
+#### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/fridgechef.git
+cd fridgechef
+```
+#### 2. Install dependencies
+We use Pipenv for environment and dependency management.
+```bash
+pipenv install
+```
+#### 3. Set your OpenAI API Key
+This project requires an OpenAI API key to run.
+Create a .env file in the project root and add the following line:
+```
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
+```
+⚠️ Important: Do not share or commit your .env file. It is ignored by .gitignore.
+
+#### 4. Run the app
+Running the Flask application:
+
+```bash
+pipenv run python app.py
+```
+
+Testing it:
+```bash
+URL=http://localhost:5000
+QUESTION="What type of bread is used for the Bruschetta recipe?"
+DATA='{
+    "question": "'${QUESTION}'"
+}'
+
+curl -X POST \
+    -H "Content-Type: application/json" \
+    -d "${DATA}" \
+    ${URL}/question
+```
+
+
+### Misc
+Running Jupyter notebook for experiments:
+
+```bash
+cd notebooks
+pipenv run jupyter notebook
+```
+
 ### Evaluation
 For the code for evaluating the system, you can check the [notebook/rag-test.ipynb](notebooks/rag-test.ipynb) notebook.
 
@@ -88,3 +141,9 @@ For gpt-3.5-turbo out of the 490 records, we had:
 ### Monitoring
 
 ### Ingestion
+
+
+### Interface
+
+----What is flask?
+We use Flask for serving the application as API.
