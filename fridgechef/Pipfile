@@ -11,6 +11,7 @@ scikit-learn = "*"
 pandas = "*"
 flask = "*"
 python-dotenv = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 tqdm = "*"

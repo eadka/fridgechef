@@ -51,12 +51,6 @@ Example record:
 * OpenAI as an LLM
 * Flask as the API interface (see []() for more information on Flask)
 
-### Running with Docker
-
-The easiest way to run this application is with docker:
-```bash
-docker-compose up
-```
 
 
 ### Installation
@@ -95,10 +89,19 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 ```
 ⚠️ Important: Do not share or commit your .env file. It is ignored by .gitignore.
 
+
+### Running with Docker
+
+The easiest way to run this application is with docker:
+```bash
+docker-compose up
+```
+
 ### 4. Run the app
 To run the application locally, run the Flask application:
 
 ```bash
+cd fridgechef/
 pipenv run python app.py
 ```
 
