@@ -1,10 +1,12 @@
 # ### Ingestion
-
+import os
+import pandas as pd
 import requests
 import minsearch
 
+DATA_PATH = os.getenv("DATA_PATH", "../Data/RecipeData.json")
 
-def load_index(data_path='https://raw.githubusercontent.com/eadka/fridgechef/main/Data/RecipeData.json'):
+def load_index(data_path= DATA_PATH): #'https://raw.githubusercontent.com/eadka/fridgechef/main/Data/RecipeData.json'):
 
     data_response = requests.get(data_path)
     recipes_data = data_response.json()

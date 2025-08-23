@@ -112,7 +112,9 @@ This cab be done by running the [`db_prep.py`](fridgechef/db_prep.py) script:
 
 ```bash
 cd fridgechef
-pipenv run python db_prep.py
+pipenv shell
+export POSTGRES_HOST=localhost
+python db_prep.py
 ```
 
 ### Testing the app
@@ -164,6 +166,7 @@ After sending it, you will receive the acknowledgement:
 Alternatevely, you can use [test.py](test.py) for testing it:
 
 ```bash
+cd notebooks/
 pipenv run python test.py
 ```
 
