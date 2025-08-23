@@ -45,8 +45,26 @@ Example record:
 }
 ```
 
+### Technologoes
+
+* [Minsearch](https://github.com/alexeygrigorev/minsearch) - For full -text search
+* OpenAI as an LLM
+* Flask as the API interface (see []() for more information on Flask)
+
+### Running with Docker
+
+The easiest way to run this application is with docker:
+```bash
+docker-compose up
+```
+
+
 ### Installation
 🚀 Setup Instructions
+
+Docker is the easiest way to run this application. If you don't want to use Docker
+and want to run this locally, then you need to manually prepare the environment and install
+the dependencies as specified below:
 
 Follow these steps to run the **Fridge Chef RAG** project locally.
 
@@ -55,11 +73,20 @@ Follow these steps to run the **Fridge Chef RAG** project locally.
 git clone https://github.com/your-username/fridgechef.git
 cd fridgechef
 ```
+
 #### 2. Install dependencies
 We use Pipenv for environment and dependency management.
+
 ```bash
-pipenv install
+pipenv install pipenv
 ```
+
+Installing the dependencies:
+
+```bash
+pipenv install --dev
+```
+
 #### 3. Set your OpenAI API Key
 This project requires an OpenAI API key to run.
 Create a .env file in the project root and add the following line:
@@ -68,14 +95,24 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 ```
 ⚠️ Important: Do not share or commit your .env file. It is ignored by .gitignore.
 
-#### 4. Run the app
-Running the Flask application:
+### 4. Run the app
+To run the application locally, run the Flask application:
 
 ```bash
 pipenv run python app.py
 ```
 
-Testing it:
+### Preparing the application
+
+Before we can use the app, we need to initialize the database.
+This cab be done by running the [`db_prep.py`](fridgechef/db_prep.py) script:
+
+```bash
+cd fridgechef
+pipenv run python db_prep.py
+```
+
+### Testing the app
 ```bash
 URL=http://localhost:5000
 QUESTION="What type of bread is used for the Bruschetta recipe?"
@@ -89,6 +126,43 @@ curl -X POST \
     ${URL}/question
 ```
 
+The answer will look like this:
+
+```json
+{
+  "answer": "The type of bread used for the Bruschetta recipe is baguette slices.",
+  "conversation_id": "7702887c-e8f3-4310-b47f-dc54a1ccb353",
+  "question": "What type of bread is used for the Bruschetta recipe?"
+}
+
+Sending feedback:
+
+```bash
+ID="7702887c-e8f3-4310-b47f-dc54a1ccb353"
+URL=http://localhost:5000
+FEEDBACK_DATA="{
+  \"conversation_id\": \"${ID}\",
+  \"feedback\": 1
+}"
+
+curl -X POST \
+    -H "Content-Type: application/json" \
+    -d "${FEEDBACK_DATA}" \
+    ${URL}/feedback
+```
+
+After sending it, you will receive the acknowledgement:
+
+```json
+{
+  "message": "Feedback received for conversation 7702887c-e8f3-4310-b47f-dc54a1ccb353: 1"
+}
+```
+Alternatevely, you can use [test.py](test.py) for testing it:
+
+```bash
+pipenv run python test.py
+```
 
 ### Misc
 Running Jupyter notebook for experiments:
@@ -141,9 +215,21 @@ For gpt-3.5-turbo out of the 490 records, we had:
 ### Monitoring
 
 ### Ingestion
+The ingestion script is in [fridgechef/ingest.py](fridgechef/ingest.py) and it is run on the startup of the app in [fridgechef/rag.py](fridgechef/rag.py)
 
+### Flask as the API Interface  
 
-### Interface
+In this project, **Flask** serves as a lightweight API layer for the Fridge Chef RAG engine.  
+It exposes HTTP endpoints so that external applications can interact with the system:  
 
-----What is flask?
-We use Flask for serving the application as API.
+- `POST /ask` → takes ingredients and returns recipe suggestions  
+- `POST /feedback` → records user feedback  
+
+Using Flask makes the project:  
+- **Accessible**: clients can call the API via HTTP  
+- **Modular**: separates RAG logic from the interface  
+- **Extendable**: easy to add new endpoints (e.g., personalization, analytics)  
+
+In our case, we can send a question to `http://localhost:5000/question`
+
+Flask acts as the bridge between the recipe database, RAG pipeline, and end users.

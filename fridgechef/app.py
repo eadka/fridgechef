@@ -22,7 +22,7 @@ def handle_question():
     result = {
         "conversation_id": conversation_id,
         "question": question,
-        "answer": answer_data["answer"],
+        "answer": answer_data, # answer_data["answer"],
     }
 
     # db.save_conversation(
