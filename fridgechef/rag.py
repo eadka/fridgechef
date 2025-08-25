@@ -1,8 +1,8 @@
 import ingest
 from openai import OpenAI
-
 from dotenv import load_dotenv
 import os
+from time import time
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -65,8 +65,40 @@ def llm(prompt, model='gpt-4o-mini'):
     return response.choices[0].message.content
 
 def rag(query,model='gpt-4o-mini'):
+    t0 = time()
+
     search_results = search(query)
     prompt = build_prompt(query, search_results)
     answer = llm(prompt,model=model)
-    return answer
+
+    t1 = time()
+    took = t1 - t0
+
+    answer_data = {
+        "answer": answer,
+        "model_used": model,
+        "response_time": took,
+        "relevance": 0,
+        "relevance_explanation": "RELEVANT",
+        "prompt_tokens": len(prompt.split()),
+        "completion_tokens": len(answer.split()),
+        "total_tokens": len(prompt.split())+len(answer.split()),
+        "eval_prompt_tokens": 0,
+        "eval_completion_tokens": 0,
+        "eval_total_tokens": 0,
+        "openai_cost": 0,
+        # "relevance": relevance.get("Relevance", "UNKNOWN"),
+        # "relevance_explanation": relevance.get(
+        #     "Explanation", "Failed to parse evaluation"
+        # ),
+        # "prompt_tokens": token_stats["prompt_tokens"],
+        # "completion_tokens": token_stats["completion_tokens"],
+        # "total_tokens": token_stats["total_tokens"],
+        # "eval_prompt_tokens": rel_token_stats["prompt_tokens"],
+        # "eval_completion_tokens": rel_token_stats["completion_tokens"],
+        # "eval_total_tokens": rel_token_stats["total_tokens"],
+        # "openai_cost": openai_cost,
+    }
+
+    return answer_data
 

@@ -3,13 +3,17 @@ import os
 import pandas as pd
 import requests
 import minsearch
+import json
 
 DATA_PATH = os.getenv("DATA_PATH", "../Data/RecipeData.json")
 
 def load_index(data_path= DATA_PATH): #'https://raw.githubusercontent.com/eadka/fridgechef/main/Data/RecipeData.json'):
 
-    data_response = requests.get(data_path)
-    recipes_data = data_response.json()
+    # data_response = requests.get(data_path)
+    # recipes_data = data_response.json()
+
+    with open(data_path, "r") as f:
+        recipes_data = json.load(f)
 
     # Ensuring all the data has strings because minsearch, under the hood uses TfidfVectorizer and expects each text_field to be a string
     for recipe in recipes_data:

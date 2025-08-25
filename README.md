@@ -98,15 +98,16 @@ docker-compose up
 ```
 
 ### 4. Run the app
-To run the application locally, run the Flask application:
+To run the application locally, run the Flask application. 
 
 ```bash
 cd fridgechef/
-pipenv run python app.py
+pipenv shell
+export POSTGRES_HOST=localhost
+python app.py
 ```
 
 ### Preparing the application
-
 Before we can use the app, we need to initialize the database.
 This cab be done by running the [`db_prep.py`](fridgechef/db_prep.py) script:
 
