@@ -10,8 +10,8 @@ openai = "*"
 scikit-learn = "*"
 pandas = "*"
 flask = "*"
-python-dotenv = "*"
 psycopg2-binary = "*"
+python-dotenv = "*"
 
 [dev-packages]
 tqdm = "*"

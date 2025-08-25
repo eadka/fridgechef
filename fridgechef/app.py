@@ -43,10 +43,10 @@ def handle_feedback():
     if not conversation_id or feedback not in [1, -1]:
         return jsonify({"error": "Invalid input"}), 400
 
-    # db.save_feedback(
-    #     conversation_id=conversation_id,
-    #     feedback=feedback,
-    # )
+    db.save_feedback(
+        conversation_id=conversation_id,
+        feedback=feedback,
+    )
 
     result = {
         "message": f"Feedback received for conversation {conversation_id}: {feedback}"

@@ -109,7 +109,7 @@ python app.py
 
 ### Preparing the application
 Before we can use the app, we need to initialize the database.
-This cab be done by running the [`db_prep.py`](fridgechef/db_prep.py) script:
+This can be done by running the [`db_prep.py`](fridgechef/db_prep.py) script:
 
 ```bash
 cd fridgechef
@@ -144,8 +144,11 @@ The answer will look like this:
 Sending feedback:
 
 ```bash
+
 ID="7702887c-e8f3-4310-b47f-dc54a1ccb353"
+
 URL=http://localhost:5000
+
 FEEDBACK_DATA="{
   \"conversation_id\": \"${ID}\",
   \"feedback\": 1
