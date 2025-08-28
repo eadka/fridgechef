@@ -119,6 +119,15 @@ python db_prep.py
 ```
 
 ### Testing the app
+There are many ways to test the application. Th easiest is to run the [test.py](test.py) script:
+
+```bash
+cd notebooks/
+pipenv run python test.py
+```
+
+Alternatively, you can use:
+
 ```bash
 URL=http://localhost:5000
 QUESTION="What type of bread is used for the Bruschetta recipe?"
@@ -144,7 +153,6 @@ The answer will look like this:
 Sending feedback:
 
 ```bash
-
 ID="7702887c-e8f3-4310-b47f-dc54a1ccb353"
 
 URL=http://localhost:5000
@@ -166,12 +174,6 @@ After sending it, you will receive the acknowledgement:
 {
   "message": "Feedback received for conversation 7702887c-e8f3-4310-b47f-dc54a1ccb353: 1"
 }
-```
-Alternatevely, you can use [test.py](test.py) for testing it:
-
-```bash
-cd notebooks/
-pipenv run python test.py
 ```
 
 ### Misc
