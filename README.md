@@ -1,5 +1,7 @@
 # Fridge Chef – RAG-based Recipe Recommendation Engine
 
+![App Screenshot](/workspaces/fridgechef/images/fridgechef_logo.png)
+
 ## Problem Description
 Home cooks often struggle to decide what to make with the ingredients they already have in their fridge or pantry. Searching for recipes online can be time-consuming and may return results requiring unavailable ingredients. This leads to wasted time, food spoilage, and missed opportunities for creative cooking.
 
@@ -118,6 +120,25 @@ export POSTGRES_HOST=localhost
 python db_prep.py
 ```
 
+To check the content of the database, use pgcli (already installed with pipenv):
+
+```bash
+pipenv run pgcli -h localhost -U your_username -d course_assistant -W
+```
+
+You can view the schema using the \d command:
+
+```bash
+\d conversations;
+```
+
+And select from this table:
+
+```bash
+select * from conversations;
+```
+
+
 ### Testing the app
 There are many ways to test the application. Th easiest is to run the [test.py](test.py) script:
 
@@ -150,7 +171,6 @@ The answer will look like this:
   "question": "What type of bread is used for the Bruschetta recipe?"
 }
 ```
-
 Sending feedback:
 
 ```bash
