@@ -7,6 +7,7 @@ name = "pypi"
 psycopg2-binary = "*"
 gunicorn = "*"
 python-dotenv = "*"
+pgcli = "*"
 
 [dev-packages]
 

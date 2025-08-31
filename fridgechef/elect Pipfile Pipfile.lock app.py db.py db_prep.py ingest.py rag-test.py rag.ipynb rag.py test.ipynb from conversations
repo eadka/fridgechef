@@ -1,0 +1,24 @@
++------------------------+--------------------------+-----------+
+| [38;5;47;01mColumn[39;00m                 | [38;5;47;01mType[39;00m                     | [38;5;47;01mModifiers[39;00m |
+|------------------------+--------------------------+-----------|
+| id                     | text                     |  not null |
+| question               | text                     |  not null |
+| answer                 | text                     |  not null |
+| model_used             | text                     |  not null |
+| response_time          | double precision         |  not null |
+| relevance              | text                     |  not null |
+| relevance_explanation  | text                     |  not null |
+| prompt_tokens          | integer                  |  not null |
+| completion_tokens      | integer                  |  not null |
+| total_tokens           | integer                  |  not null |
+| eval_prompt_tokens     | integer                  |  not null |
+| eval_completion_tokens | integer                  |  not null |
+| eval_total_tokens      | integer                  |  not null |
+| openai_cost            | double precision         |  not null |
+| timestamp              | timestamp with time zone |  not null |
++------------------------+--------------------------+-----------+
+Indexes:
+    "conversations_pkey" PRIMARY KEY, btree (id)
+Referenced by:
+    TABLE "feedback" CONSTRAINT "feedback_conversation_id_fkey" FOREIGN KEY (conversation_id) REFERENCES conversations(id)
+
