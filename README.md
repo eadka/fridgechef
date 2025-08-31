@@ -1,6 +1,6 @@
 # Fridge Chef – RAG-based Recipe Recommendation Engine
 
-![App Screenshot](/workspaces/fridgechef/images/fridgechef_logo.png)
+![App Logo](https://github.com/eadka/fridgechef/blob/main/images/fridgechef_logo.png)
 
 ## Problem Description
 Home cooks often struggle to decide what to make with the ingredients they already have in their fridge or pantry. Searching for recipes online can be time-consuming and may return results requiring unavailable ingredients. This leads to wasted time, food spoilage, and missed opportunities for creative cooking.
