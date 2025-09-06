@@ -139,7 +139,7 @@ And select from this table:
 ```bash
 select * from conversations;
 ```
-
+These steps are best done after testing the app with the below options. 
 
 ### Testing the app
 There are many ways to test the application. Th easiest is to run the [test.py](test.py) script:
@@ -197,6 +197,20 @@ After sending it, you will receive the acknowledgement:
 {
   "message": "Feedback received for conversation 7702887c-e8f3-4310-b47f-dc54a1ccb353: 1"
 }
+```
+
+### CLI
+The application can also be run using an interactive CLI module builtttt using [questionary](https://questionary.readthedocs.io/en/stable/).
+
+To start it, run:
+
+```bash
+pipenv run python cli.py
+```
+You can also choose a randomly selected question from [our ground truth dataset](https://github.com/eadka/fridgechef/blob/main/Data/ground-truth-retrieval.csv) by running the below command:
+
+```bash
+pipenv run python cli.py --random
 ```
 
 ### Misc

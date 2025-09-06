@@ -12,6 +12,7 @@ pandas = "*"
 flask = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
+pgcli = "*"
 
 [dev-packages]
 tqdm = "*"
