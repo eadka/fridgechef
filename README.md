@@ -267,6 +267,7 @@ We use Grafana for monitoring the application.
 It's accessible at [localhost:3000](http://localhost:3000/):
 
 Login: "admin"
+
 Password: "admin"
 
 #### Dashboard
