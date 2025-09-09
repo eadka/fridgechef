@@ -331,3 +331,6 @@ Using Flask makes the project:
 In our case, we can send a question to `http://localhost:5000/question`
 
 Flask acts as the bridge between the recipe database, RAG pipeline, and end users.
+
+### Acknowledgements
+Grateful to Alexey Grigorev for his guidance in the LLM Zoomcamp, my family for their support, and especially my husband and co-learner for the endless motivation and our dinner-table discussions.
