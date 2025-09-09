@@ -271,7 +271,7 @@ Password: "admin"
 
 #### Dashboard
 <p align="center">
-  <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChef_GrafanaScreenshot.png" alt="FridgeChef" width="400"/>
+  <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChef_GrafanaScreenshot.png" alt="FridgeChef Grafana Dashboard"/>
 </p>
 
 ### Ingestion
