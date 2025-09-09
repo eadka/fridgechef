@@ -270,8 +270,9 @@ Login: "admin"
 Password: "admin"
 
 #### Dashboard
-![Fridge Chef Grafana Dashboard](https://raw.githubusercontent.com/your-repo/fridgechef/main/assets/logo.png)
-
+<p align="center">
+  <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChef_GrafanaScreenshot.png" alt="FridgeChef" width="400"/>
+</p>
 
 ### Ingestion
 The ingestion script is in [fridgechef/ingest.py](fridgechef/ingest.py) and it is run on the startup of the app in [fridgechef/rag.py](fridgechef/rag.py)
