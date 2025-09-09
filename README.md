@@ -264,7 +264,7 @@ For gpt-3.5-turbo out of the 490 records, we had:
 ### Monitoring
 We use Grafana for monitoring the application.
 
-It's accessible at [localhost:3000](127.0.0.1:3000):
+It's accessible at [localhost:3000](http://localhost:3000/):
 
 Login: "admin"
 Password: "admin"
@@ -273,6 +273,42 @@ Password: "admin"
 <p align="center">
   <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChef_GrafanaScreenshot.png" alt="FridgeChef Grafana Dashboard"/>
 </p>
+
+The dashboard has several panels:
+- Last 5 Conversations (Table): Recent user queries and AI responses with relevance scores.
+- Feedback (+1/-1 Pie Chart): Distribution of positive vs. negative feedback on answers.
+- Relevancy (Gauge): Quality of responses measured by conversation relevance.
+- OpenAI Cost (Time Series): Token usage cost trends over time.
+- Tokens (Time Series): Total tokens consumed per query.
+- Model Used (Bar Chart): Breakdown of language models utilized across sessions.
+- Response Time (Time Series): System response latency trends.
+
+#### Setting up Grafana
+
+All Grafana configurations are in the [grafana](https://github.com/eadka/fridgechef/tree/main/grafana) folder:
+
+[init.py](https://github.com/eadka/fridgechef/blob/main/grafana/init.py) - for initializing the datasource and the dashboard.
+[dashboard.json](https://github.com/eadka/fridgechef/blob/main/grafana/dashboard.json) - the actual dashboard.
+To initialize the dashboard, first ensure Grafana is running (it starts automatically when you do docker-compose up).
+
+Then run:
+
+```bash
+pipenv shell
+
+cd grafana
+
+# make sure the POSTGRES_HOST variable is not overwritten 
+env | grep POSTGRES_HOST
+
+python init.py
+```
+
+Then go to [localhost:3000](http://localhost:3000/):
+
+Login: "admin"
+Password: "admin"
+When prompted, keep "admin" as the new password.
 
 ### Ingestion
 The ingestion script is in [fridgechef/ingest.py](fridgechef/ingest.py) and it is run on the startup of the app in [fridgechef/rag.py](fridgechef/rag.py)
