@@ -289,6 +289,7 @@ All Grafana configurations are in the [grafana](https://github.com/eadka/fridgec
 
 - [init.py](https://github.com/eadka/fridgechef/blob/main/grafana/init.py) - for initializing the datasource and the dashboard.
 - [dashboard.json](https://github.com/eadka/fridgechef/blob/main/grafana/dashboard.json) - the actual dashboard.
+
 To initialize the dashboard, first ensure Grafana is running (it starts automatically when you do docker-compose up).
 
 Then run:
@@ -308,6 +309,7 @@ Then go to [localhost:3000](http://localhost:3000/):
 
 - Login: "admin"
 - Password: "admin"
+
 When prompted, keep "admin" as the new password.
 
 ### Ingestion
