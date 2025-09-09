@@ -262,6 +262,16 @@ For gpt-3.5-turbo out of the 490 records, we had:
 * 2 (1%) NON_RELEVANT
 
 ### Monitoring
+We use Grafana for monitoring the application.
+
+It's accessible at [localhost:3000](127.0.0.1:3000):
+
+Login: "admin"
+Password: "admin"
+
+#### Dashboard
+![Fridge Chef Grafana Dashboard](https://raw.githubusercontent.com/your-repo/fridgechef/main/assets/logo.png)
+
 
 ### Ingestion
 The ingestion script is in [fridgechef/ingest.py](fridgechef/ingest.py) and it is run on the startup of the app in [fridgechef/rag.py](fridgechef/rag.py)
