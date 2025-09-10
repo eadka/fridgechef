@@ -344,6 +344,5 @@ In our case, we can send a question to `http://localhost:5000/question`
 Flask acts as the bridge between the recipe database, RAG pipeline, and end users.
 
 
-
 ## Acknowledgements
 Very grateful to Alexey Grigorev for his guidance in the LLM Zoomcamp, my family for their kind support, and especially my husband and co-learner for the endless motivation and our dinner-table discussions.
