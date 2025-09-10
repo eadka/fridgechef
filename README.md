@@ -12,8 +12,10 @@ Home cooks often struggle to decide what to make with the ingredients they alrea
 - Save time in meal planning.
 - Explore diverse cuisines without guesswork.
 
+
 ## Dataset
 The dataset was generated using ChatGPT and is stored in the `Data` folder as `RecipeData.json`.
+
 
 ### Data Structure
 Each recipe in the dataset is represented as a JSON object with the following fields:
@@ -49,6 +51,7 @@ Example record:
 }
 ```
 
+
 ## Technologoes
 
 * [Minsearch](https://github.com/alexeygrigorev/minsearch) - For full -text search
@@ -64,6 +67,7 @@ and want to run this locally, then you need to manually prepare the environment 
 the dependencies as specified below:
 
 Follow these steps to run the **Fridge Chef RAG** project locally.
+
 
 #### 1. Clone the repository
 ```bash
@@ -139,6 +143,7 @@ And select from this table:
 select * from conversations;
 ```
 These steps are best done after testing the app with the below options. 
+
 
 ## Testing the app
 There are many ways to test the application. Th easiest is to run the [test.py](test.py) script:
@@ -223,6 +228,7 @@ pipenv run jupyter notebook
 ## Evaluation
 For the code for evaluating the system, you can check the [notebook/rag-test.ipynb](notebooks/rag-test.ipynb) notebook.
 
+
 ## Retrieval
 The basic approach - using minsearch without using any boosting gives the following metrics:
 * hit_rate: 97% [0.9755102040816327], 
@@ -260,6 +266,7 @@ For gpt-3.5-turbo out of the 490 records, we had:
 * 29 (6%) PARTLY_RELEVANT
 * 2 (1%) NON_RELEVANT
 
+
 ## Monitoring
 We use Grafana for monitoring the application.
 
@@ -268,6 +275,7 @@ It's accessible at [localhost:3000](http://localhost:3000/):
 Login: "admin"
 
 Password: "admin"
+
 
 ### Dashboard
 <p align="center">
@@ -282,6 +290,7 @@ The dashboard has several panels:
 - Tokens (Time Series): Total tokens consumed per query.
 - Model Used (Bar Chart): Breakdown of language models utilized across sessions.
 - Response Time (Time Series): System response latency trends.
+
 
 #### Setting up Grafana
 
@@ -312,8 +321,10 @@ Then go to [localhost:3000](http://localhost:3000/):
 
 When prompted, keep "admin" as the new password.
 
+
 ## Ingestion
 The ingestion script is in [fridgechef/ingest.py](fridgechef/ingest.py) and it is run on the startup of the app in [fridgechef/rag.py](fridgechef/rag.py)
+
 
 ## Flask as the API Interface  
 
@@ -331,6 +342,8 @@ Using Flask makes the project:
 In our case, we can send a question to `http://localhost:5000/question`
 
 Flask acts as the bridge between the recipe database, RAG pipeline, and end users.
+
+
 
 ## Acknowledgements
 Very grateful to Alexey Grigorev for his guidance in the LLM Zoomcamp, my family for their kind support, and especially my husband and co-learner for the endless motivation and our dinner-table discussions.
