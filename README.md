@@ -49,15 +49,14 @@ Example record:
 }
 ```
 
-### Technologoes
+## Technologoes
 
 * [Minsearch](https://github.com/alexeygrigorev/minsearch) - For full -text search
 * OpenAI as an LLM
 * Flask as the API interface (see []() for more information on Flask)
 
 
-
-### Installation
+## Installation
 🚀 Setup Instructions
 
 Docker is the easiest way to run this application. If you don't want to use Docker
@@ -111,7 +110,7 @@ export POSTGRES_HOST=localhost
 python app.py
 ```
 
-### Preparing the application
+## Preparing the application
 Before we can use the app, we need to initialize the database.
 This can be done by running the [`db_prep.py`](fridgechef/db_prep.py) script:
 
@@ -141,7 +140,7 @@ select * from conversations;
 ```
 These steps are best done after testing the app with the below options. 
 
-### Testing the app
+## Testing the app
 There are many ways to test the application. Th easiest is to run the [test.py](test.py) script:
 
 ```bash
@@ -221,10 +220,10 @@ cd notebooks
 pipenv run jupyter notebook
 ```
 
-### Evaluation
+## Evaluation
 For the code for evaluating the system, you can check the [notebook/rag-test.ipynb](notebooks/rag-test.ipynb) notebook.
 
-### Retrieval
+## Retrieval
 The basic approach - using minsearch without using any boosting gives the following metrics:
 * hit_rate: 97% [0.9755102040816327], 
 * MRR: 83% [0.836089245221898]
@@ -247,7 +246,7 @@ boost = {
 } 
 ```
 
-### RAG
+## RAG
 We used the LLM-as-a-judge metric to evaluate the quality of our RAG flow
 For gpt-4o-mini out of the 490 records, we had:
 
@@ -261,7 +260,7 @@ For gpt-3.5-turbo out of the 490 records, we had:
 * 29 (6%) PARTLY_RELEVANT
 * 2 (1%) NON_RELEVANT
 
-### Monitoring
+## Monitoring
 We use Grafana for monitoring the application.
 
 It's accessible at [localhost:3000](http://localhost:3000/):
@@ -270,7 +269,7 @@ Login: "admin"
 
 Password: "admin"
 
-#### Dashboard
+### Dashboard
 <p align="center">
   <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChef_GrafanaScreenshot.png" alt="FridgeChef Grafana Dashboard"/>
 </p>
@@ -313,10 +312,10 @@ Then go to [localhost:3000](http://localhost:3000/):
 
 When prompted, keep "admin" as the new password.
 
-### Ingestion
+## Ingestion
 The ingestion script is in [fridgechef/ingest.py](fridgechef/ingest.py) and it is run on the startup of the app in [fridgechef/rag.py](fridgechef/rag.py)
 
-### Flask as the API Interface  
+## Flask as the API Interface  
 
 In this project, **Flask** serves as a lightweight API layer for the Fridge Chef RAG engine.  
 It exposes HTTP endpoints so that external applications can interact with the system:  
@@ -333,5 +332,5 @@ In our case, we can send a question to `http://localhost:5000/question`
 
 Flask acts as the bridge between the recipe database, RAG pipeline, and end users.
 
-### Acknowledgements
+## Acknowledgements
 Very grateful to Alexey Grigorev for his guidance in the LLM Zoomcamp, my family for their kind support, and especially my husband and co-learner for the endless motivation and our dinner-table discussions.
