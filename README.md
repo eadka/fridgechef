@@ -54,9 +54,12 @@ Example record:
 
 ## Technologoes
 
+* Python 3.12
+* Docker and Docker Compose for containerization
 * [Minsearch](https://github.com/alexeygrigorev/minsearch) - For full -text search
 * OpenAI as an LLM
 * Flask as the API interface (see []() for more information on Flask)
+* Grafana for monitoring and PostgreSQL as the backend for it
 
 
 ## Installation
