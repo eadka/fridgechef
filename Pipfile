@@ -10,9 +10,13 @@ python-dotenv = "*"
 pgcli = "*"
 requests = "*"
 questionary = "*"
-pandas = "*"
 streamlit = "*"
 uuid = "*"
+pipenv = "*"
+flask = "*"
+minsearch = "*"
+openai = "*"
+pandas = "*"
 
 [dev-packages]
 
