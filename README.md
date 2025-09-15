@@ -135,7 +135,7 @@ export POSTGRES_HOST=localhost
 python db_prep.py
 ```
 
-To check the content of the database, use pgcli (already installed with pipenv):
+To check the content of the database, use pgcli (already installed with pipenv). These steps are best done after running Streamlit or other options mentioned in the [Testing the app](#testing-the-app) section. 
 
 ```bash
 pipenv run pgcli -h localhost -U your_username -d course_assistant -W
@@ -152,7 +152,6 @@ And select from this table:
 ```bash
 select * from conversations;
 ```
-These steps are best done after testing the app with the below options. 
 
 
 ## Testing the app
