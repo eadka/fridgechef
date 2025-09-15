@@ -11,6 +11,8 @@ pgcli = "*"
 requests = "*"
 questionary = "*"
 pandas = "*"
+streamlit = "*"
+uuid = "*"
 
 [dev-packages]
 

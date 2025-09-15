@@ -13,6 +13,8 @@ flask = "*"
 psycopg2-binary = "*"
 python-dotenv = "*"
 pgcli = "*"
+streamlit = "*"
+altair = "*"
 
 [dev-packages]
 tqdm = "*"

@@ -207,7 +207,7 @@ After sending it, you will receive the acknowledgement:
 ```
 
 ### CLI
-The application can also be run using an interactive CLI module builtttt using [questionary](https://questionary.readthedocs.io/en/stable/).
+The application can also be run using an interactive CLI module built using [questionary](https://questionary.readthedocs.io/en/stable/).
 
 To start it, run:
 
@@ -219,6 +219,21 @@ You can also choose a randomly selected question from [our ground truth dataset]
 ```bash
 pipenv run python cli.py --random
 ```
+
+### Streamlit
+You can also interact with the app with Streamlit where you can ask a question or choose a randomly generated question from our [ground truth dataset](https://github.com/eadka/fridgechef/blob/main/Data/ground-truth-retrieval.csv) by running the below command:
+
+```bash
+pipenv shell
+streamlit run streamlit_cli.py
+```
+
+The below dashboard will open up in a browser at [localhost:8501](http://localhost:8501/)
+
+<p align="center">
+  <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChefIcon.png" alt="FridgeChef" width="400"/>
+</p>
+
 
 ### Misc
 Running Jupyter notebook for experiments:

@@ -42,6 +42,20 @@ services:
     depends_on:
       - postgres
 
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      POSTGRES_HOST: postgres
+      FLASK_API_URL: http://app:5000
+    ports:
+      - "8501:8501"
+    depends_on:
+      - app
+      - postgres
+
 volumes:
   postgres_data:
   grafana_data:
