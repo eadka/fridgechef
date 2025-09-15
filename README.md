@@ -149,7 +149,24 @@ These steps are best done after testing the app with the below options.
 
 
 ## Testing the app
-There are many ways to test the application. Th easiest is to run the [test.py](test.py) script:
+There are many ways to test the application. The easiest is to run the Streamlit application as shown below.
+
+### Streamlit
+You can also interact with the app with Streamlit where you can ask a question or choose a randomly generated question from our [ground truth dataset](https://github.com/eadka/fridgechef/blob/main/Data/ground-truth-retrieval.csv) by running the below command:
+
+```bash
+pipenv shell
+streamlit run streamlit_cli.py
+```
+
+The below dashboard will open up in a browser at [localhost:8501](http://localhost:8501/)
+
+<p align="left">
+  <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChef_StreamlitScreenshot.png" alt="FridgeChef" width="400"/>
+</p>
+
+
+Optionally, you can run the  [test.py](test.py) python script 
 
 ```bash
 cd notebooks/
@@ -206,7 +223,7 @@ After sending it, you will receive the acknowledgement:
 }
 ```
 
-### CLI
+### CLI (OPTIONAL)
 The application can also be run using an interactive CLI module built using [questionary](https://questionary.readthedocs.io/en/stable/).
 
 To start it, run:
@@ -220,35 +237,12 @@ You can also choose a randomly selected question from [our ground truth dataset]
 pipenv run python cli.py --random
 ```
 
-### Streamlit
-You can also interact with the app with Streamlit where you can ask a question or choose a randomly generated question from our [ground truth dataset](https://github.com/eadka/fridgechef/blob/main/Data/ground-truth-retrieval.csv) by running the below command:
-
-```bash
-pipenv shell
-streamlit run streamlit_cli.py
-```
-
-The below dashboard will open up in a browser at [localhost:8501](http://localhost:8501/)
-
-<p align="left">
-  <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChef_StreamlitScreenshot.png" alt="FridgeChef" width="400"/>
-</p>
-
-
-### Misc
-Running Jupyter notebook for experiments:
-
-```bash
-cd notebooks
-pipenv run jupyter notebook
-```
-
 ## Evaluation
-For the code for evaluating the system, you can check the [notebook/rag-test.ipynb](notebooks/rag-test.ipynb) notebook.
+To evaluate the system, see the [notebook/rag-test.ipynb](notebooks/rag-test.ipynb) notebook.
 
 
 ## Retrieval
-The basic approach - using minsearch without using any boosting gives the following metrics:
+The basic approach, using minsearch without any boosting, gives the following metrics:
 * hit_rate: 97% [0.9755102040816327], 
 * MRR: 83% [0.836089245221898]
 
@@ -271,7 +265,7 @@ boost = {
 ```
 
 ## RAG
-We used the LLM-as-a-judge metric to evaluate the quality of our RAG flow
+We used the LLM-as-a-judge metric to evaluate the quality of our RAG flow.
 For gpt-4o-mini out of the 490 records, we had:
 
 * 474 (96%) RELEVANT
