@@ -59,6 +59,7 @@ Example record:
 * [Minsearch](https://github.com/alexeygrigorev/minsearch) - For full -text search
 * OpenAI as an LLM
 * Flask as the API interface (see []() for more information on Flask)
+* Streamlit as the frontend
 * Grafana for monitoring and PostgreSQL as the backend for it
 
 
@@ -74,7 +75,7 @@ Follow these steps to run the **Fridge Chef RAG** project locally.
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/fridgechef.git
+git clone https://github.com/eadka/fridgechef
 cd fridgechef
 ```
 
@@ -91,18 +92,24 @@ Installing the dependencies:
 pipenv install --dev
 ```
 
-#### 3. Set your OpenAI API Key
-This project requires an OpenAI API key to run.
-Create a .env file in the project root and add the following line:
+#### 3. Set your Environment variables.
+Create a .env file in the root directory and copy the structure of .env_template. Update the values accordingly.
+
+```bash
+cp .env_template .env
+# Update the values in .env file (mostly the OPENAI_API_KEY and OPENSEARCH_PASSWORD)
+```
+
+This project requires an OpenAI API key to run. Update the .env file with your key:
+
 ```
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 ```
 ⚠️ Important: Do not share or commit your .env file. It is ignored by .gitignore.
 
-
 ### Running with Docker
 
-The easiest way to run this application is with docker:
+The easiest way to run this application is with docker. Ensure docker engine is running:
 ```bash
 docker-compose up
 ```
