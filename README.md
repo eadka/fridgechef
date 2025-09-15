@@ -97,7 +97,7 @@ Create a .env file in the root directory and copy the structure of .env_template
 
 ```bash
 cp .env_template .env
-# Update the values in .env file (mostly the OPENAI_API_KEY and OPENSEARCH_PASSWORD)
+# Update the values in .env file (mostly the OPENAI_API_KEY)
 ```
 
 This project requires an OpenAI API key to run. Update the .env file with your key:
@@ -111,7 +111,7 @@ OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxx
 
 The easiest way to run this application is with docker. Ensure docker engine is running:
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 
 ### 4. Run the app
