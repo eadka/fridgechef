@@ -231,7 +231,7 @@ streamlit run streamlit_cli.py
 The below dashboard will open up in a browser at [localhost:8501](http://localhost:8501/)
 
 <p align="center">
-  <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChefIcon.png" alt="FridgeChef" width="400"/>
+  <img src="https://github.com/eadka/fridgechef/blob/main/images/FridgeChef_StreamlitScreenshot_small.png" alt="FridgeChef" width="400"/>
 </p>
 
 
